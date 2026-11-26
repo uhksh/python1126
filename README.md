@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b14,50:3b1f6e,100:ff8c00&height=230&section=header&text=THE%20WATCHER&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Dreams%20%26%20Hopes%20Repository&descAlignY=58&descSize=20" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF8C00&center=true&vCenter=true&width=650&lines=Code+is+my+brush.;Python+is+my+canvas.;Today+I+am+not+who+I+was+yesterday.;%E4%BB%8A%E6%88%91%E7%95%B0%E6%98%A8%E6%88%91" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF8C00&center=true&vCenter=true&width=650&lines=Code+is+my+brush.;Python+is+my+canvas.;Today+I+am+not+who+I+was+yesterday." alt="Typing SVG" />
 
 <br/>
 
@@ -45,14 +45,14 @@
 📦 dreams-and-hopes
  ┣ 📜 gugudan.py        ← 입력 기반 구구단 함수
  ┣ 📜 turtle_owl.py     ← 터틀 그래픽 아트: THE WATCHER
- ┣ 🖼️ owl.png           ← 실행 결과 스크린샷
+ ┣ 🖼️ image.png         ← 실행 결과 스크린샷
  ┗ 📘 README.md         ← 지금 보고 있는 이 문서
 ```
 
 | 파일 | 역할 | 핵심 개념 |
 |:---:|:---|:---|
-| `gugudan.py` | 단을 입력받아 구구단 출력 | `def` · `input` · `for` · `range` |
-| `turtle_owl.py` | 터틀로 그린 부엉이 작품 | 레이어 구조 · 그라데이션 · 방사형 패턴 |
+| `gugudan.py` | 단을 입력받아 구구단 출력 | `def` - `input` - `for` - `range` |
+| `turtle_owl.py` | 터틀로 그린 부엉이 작품 | 레이어 구조 - 그라데이션 - 방사형 패턴 |
 
 ---
 
@@ -65,12 +65,12 @@
 
 ```mermaid
 flowchart LR
-    A([▶ 시작]) --> B[/몇단을 입력할까요?/]
+    A([시작]) --> B["몇단을 입력할까요?"]
     B --> C[입력값을 정수로 변환]
-    C --> D{i = 1 ~ 9}
+    C --> D{"i = 1 부터 9 까지"}
     D -->|반복| E[단 x i 출력]
     E --> D
-    D -->|끝| F([■ 종료])
+    D -->|끝| F([종료])
 ```
 
 </details>
@@ -96,7 +96,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="owl.png" width="600"/>
+<img src="image.png" width="600"/>
 
 *눈을 감지 않는 자. 시간의 고리 한가운데에서 모든 것을 바라본다.*
 
@@ -108,12 +108,12 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    L1["🌀 Layer 1 · 황금 나선 만다라"] --> L2["⭕ Layer 2 · 시간의 고리"]
-    L2 --> L3["⚡ Layer 3 · 에너지 버스트"]
-    L3 --> L4["🪶 Layer 4 · 머리 & 깃털 텍스처"]
-    L4 --> L5["🌕 Layer 5 · 얼굴 판"]
-    L5 --> L6["🔥 Layer 6 · 불타는 눈"]
-    L6 --> L7["✒️ Layer 7 · 부리 & 서명"]
+    L1["Layer 1 - 황금 나선 만다라"] --> L2["Layer 2 - 시간의 고리"]
+    L2 --> L3["Layer 3 - 에너지 버스트"]
+    L3 --> L4["Layer 4 - 머리와 깃털 텍스처"]
+    L4 --> L5["Layer 5 - 얼굴 판"]
+    L5 --> L6["Layer 6 - 불타는 눈"]
+    L6 --> L7["Layer 7 - 부리와 서명"]
 ```
 
 ### 🔬 Technique Breakdown
