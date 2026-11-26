@@ -71,22 +71,7 @@ flowchart LR
 <img src="image.png" width="600"/>
 </div>
 
-### 그리는 순서
 
-뒤에 있는 레이어부터 차례로 쌓아서 완성합니다.
-
-```mermaid
-flowchart LR
-    L1[나선 배경] --> L2[점선 원] --> L3[빛줄기] --> L4[머리와 깃털] --> L5[얼굴 판] --> L6[눈] --> L7[부리]
-
----
-
-## 🚀 실행 방법
-
-```bash
-python gugudan.py
-python turtle_owl.py
-```
 
 > 터틀은 창을 띄워야 해서 Colab 같은 웹 환경이 아니라 내 컴퓨터의 파이썬으로 실행해야 합니다.
 
