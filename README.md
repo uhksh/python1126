@@ -32,7 +32,7 @@
 
 ## 2️⃣ 터틀 작품 - THE WATCHER
 
-![owl](owl.png)
+![owl](image.png)
 
 - 황금 나선 만다라 배경
 - 그라데이션으로 표현한 불타는 눈
